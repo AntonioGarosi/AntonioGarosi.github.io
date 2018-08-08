@@ -38,7 +38,7 @@ github: yourusername
 #------------------------------------------------------------------------------
 source: .
 destination: ./_site
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 
 sass:
     style: :compressed
