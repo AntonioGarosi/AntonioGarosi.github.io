@@ -3,8 +3,8 @@
     <channel>
         <title>Antonio's Portfolio</title>
         <description>Something cool, I guess.</description>
-        <link>http://antoniogarosi.github.io/</link>
-        <atom:link href="http://antoniogarosi.github.io//feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://antoniogarosi.github.io</link>
+        <atom:link href="http://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
     </channel>
 </rss>
