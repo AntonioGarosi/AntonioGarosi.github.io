@@ -7,17 +7,31 @@
         <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Satshakit USB Hat</title>
+                <dc:creator></dc:creator>
+                
+                    <description>After discovering SatshaKit - the project by Daniele “Satsha” Ingrassia of making a fab-equivalent Arduino - I thought that it was a very good idea but it lacked yet of the one of the most peculiar aspects of the famous italian microcontroller: th...</description>
+                
+                            <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
+                <link>https://antoniogarosi.github.io/Sathsakit-USB-Hat</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Sathsakit-USB-Hat</guid>
+            </item>
+        
+            <item>
                 <title>Heap</title>
                 <dc:creator></dc:creator>
                 
                     <description>
+
+
+
     
 
 
 
 </description>
                 
-                            <pubDate>Mon, 13 Aug 2018 00:00:00 +0200</pubDate>
+                            <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
                 <link>https://antoniogarosi.github.io/Heap</link>
                 <guid isPermaLink="true">https://antoniogarosi.github.io/Heap</guid>
             </item>
