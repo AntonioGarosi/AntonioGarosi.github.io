@@ -2,47 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Antonio's Portfolio</title>
-        <description>Something cool about me, I guess.</description>
+        <description>Makey, toyish, geeky, designish works by a fab guy from Tuscany</description>
         <link>https://antoniogarosi.github.io</link>
         <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
-                <title>Test 2 post</title>
+                <title>Heap</title>
                 <dc:creator></dc:creator>
                 
-                    <description>Test text
+                    <description>
+    
+
+
 
 </description>
                 
-                            <pubDate>Sun, 12 Aug 2018 02:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/test2</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/test2</guid>
+                            <pubDate>Mon, 13 Aug 2018 00:00:00 +0200</pubDate>
+                <link>https://antoniogarosi.github.io/Heap</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Heap</guid>
             </item>
         
             <item>
-                <title>Work in progress</title>
+                <title>Welcome</title>
                 <dc:creator></dc:creator>
                 
-                    <description>Work in progress. Please, be patient.
-
-</description>
+                    <description>Hello, I’m Antonio from Siena.
+This is the first post of this portfolio, onto which I’ll cram my works, projects and other casual stuff.
+There will be some work in progress in the first period, but in the end I hope you’ll a clear view of my skill...</description>
                 
-                            <pubDate>Sat, 11 Aug 2018 03:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/work-in-progress</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/work-in-progress</guid>
-            </item>
-        
-            <item>
-                <title>Test post</title>
-                <dc:creator></dc:creator>
-                
-                    <description>Test text
-
-</description>
-                
-                            <pubDate>Sat, 11 Aug 2018 02:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/test</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/test</guid>
+                            <pubDate>Mon, 13 Aug 2018 00:00:00 +0200</pubDate>
+                <link>https://antoniogarosi.github.io/welcome</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/welcome</guid>
             </item>
         
     </channel>
