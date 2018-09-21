@@ -7,6 +7,17 @@
         <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Scripting with Jekyll</title>
+                <dc:creator></dc:creator>
+                
+                    <description>Adapting a static site generator, one script at a time</description>
+                
+                            <pubDate>Sat, 22 Sep 2018 00:00:00 +0200</pubDate>
+                <link>https://antoniogarosi.github.io/Scripting-Jekyll</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Scripting-Jekyll</guid>
+            </item>
+        
+            <item>
                 <title>Satshakit USB Hat</title>
                 <dc:creator></dc:creator>
                 
