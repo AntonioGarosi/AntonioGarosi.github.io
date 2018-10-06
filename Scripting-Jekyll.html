@@ -70,69 +70,69 @@ Jekyll is well promoted for its high levels of extensibility and compatibility, 
 <p>That’s why I started to write a series of BASH scripts to simplify this process that made it more easy to mantain this portfolio and kept my working folder and my Githubpages repo much cleaner.</p>
 
 <p>Here it is from its relative work-in-progress <a href="https://github.com/AntonioGarosi/JekyllScripts">Github repository</a>:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-# Scripts to handle my goddam portfolio
-# ./jekyll-scripts.sh build - Exports site and updates GithubPages
-# ./jekyll-scripts.sh build locale - Exports site with local dependencies
-# ./jekyll-scripts.sh serve - Mounts site locally and opens it in the browse (firefox). --livereload active by default
-# ./jekyll-scripts.sh new - Makes a new post page and opens it in the editor //NOT IMPLEMENTED YET
-# ./jekyll-scripts.sh new *template* - Makes a new project of the chosen template and opens it in the editor //NOT IMPLEMENTED YET
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c"># Scripts to handle my goddam portfolio</span>
+<span class="c"># ./jekyll-scripts.sh build - Exports site and updates GithubPages</span>
+<span class="c"># ./jekyll-scripts.sh build locale - Exports site with local dependencies</span>
+<span class="c"># ./jekyll-scripts.sh serve - Mounts site locally and opens it in the browse (firefox). --livereload active by default</span>
+<span class="c"># ./jekyll-scripts.sh new - Makes a new post page and opens it in the editor //NOT IMPLEMENTED YET</span>
+<span class="c"># ./jekyll-scripts.sh new *template* - Makes a new project of the chosen template and opens it in the editor //NOT IMPLEMENTED YET</span>
 
-#Build location - _site by Jekyll default, change it in case of different destination
-REPO="_site"
+<span class="c">#Build location - _site by Jekyll default, change it in case of different destination</span>
+<span class="nv">REPO</span><span class="o">=</span><span class="s2">"_site"</span>
 
-case $1 in
-build)
-    if [ -z $2 ]
-    then
-        JEKYLL_ENV=production jekyll build
-        cd $REPO
-        git add .
-        printf "\n"
-        read -p "Please, write a message for the commit: " MSG
-        git commit -m "$MSG"
+<span class="k">case</span> <span class="nv">$1</span> <span class="k">in
+</span>build<span class="p">)</span>
+    <span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="nv">$2</span> <span class="o">]</span>
+    <span class="k">then
+        </span><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production jekyll build
+        <span class="nb">cd</span> <span class="nv">$REPO</span>
+        git add <span class="nb">.</span>
+        <span class="nb">printf</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Please, write a message for the commit: "</span> MSG
+        git commit <span class="nt">-m</span> <span class="s2">"</span><span class="nv">$MSG</span><span class="s2">"</span>
         git push
-        GITMSG=" and uploaded"
-    else
-        if [ $2 == "local" ]
-        then
-            jekyll build
-        else
-            ERROR_DUMP="Wait! You building against what?"
-        fi
+        <span class="nv">GITMSG</span><span class="o">=</span><span class="s2">" and uploaded"</span>
+    <span class="k">else
+        if</span> <span class="o">[</span> <span class="nv">$2</span> <span class="o">==</span> <span class="s2">"local"</span> <span class="o">]</span>
+        <span class="k">then
+            </span>jekyll build
+        <span class="k">else
+            </span><span class="nv">ERROR_DUMP</span><span class="o">=</span><span class="s2">"Wait! You building against what?"</span>
+        <span class="k">fi
     fi
-    if [ -z "$ERROR_DUMP" ]
-    then
-        printf "\nBuild done$GITMSG, thank you!\n\n"
-    fi
-;;
-serve)
-    #Understand how to optimize this function
-    firefox http://127.0.0.1:4000/ &amp; jekyll serve --livereload
-;;
-new)
-    if [ -e scripts/new.sh ]
-    then
-        TYPE=""
-        #change check to an array of strings according to templates
-        if [ $2 == "template" ]
-        then
-            $TYPE=$2
-        fi
-        #Not implemented yet
-        ./scripts/new.sh $TYPE
-    else
-        ERROR_DUMP="ERROR!!! scripts/new.sh not found!!!"
-    fi
-;;
-*)
-    printf "Invalid input\n"
-esac
+    if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="nv">$ERROR_DUMP</span><span class="s2">"</span> <span class="o">]</span>
+    <span class="k">then
+        </span><span class="nb">printf</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">Build done</span><span class="nv">$GITMSG</span><span class="s2">, thank you!</span><span class="se">\n\n</span><span class="s2">"</span>
+    <span class="k">fi</span>
+<span class="p">;;</span>
+serve<span class="p">)</span>
+    <span class="c">#Understand how to optimize this function</span>
+    firefox http://127.0.0.1:4000/ &amp; jekyll serve <span class="nt">--livereload</span>
+<span class="p">;;</span>
+new<span class="p">)</span>
+    <span class="k">if</span> <span class="o">[</span> <span class="nt">-e</span> scripts/new.sh <span class="o">]</span>
+    <span class="k">then
+        </span><span class="nv">TYPE</span><span class="o">=</span><span class="s2">""</span>
+        <span class="c">#change check to an array of strings according to templates</span>
+        <span class="k">if</span> <span class="o">[</span> <span class="nv">$2</span> <span class="o">==</span> <span class="s2">"template"</span> <span class="o">]</span>
+        <span class="k">then</span>
+            <span class="nv">$TYPE</span><span class="o">=</span><span class="nv">$2</span>
+        <span class="k">fi</span>
+        <span class="c">#Not implemented yet</span>
+        ./scripts/new.sh <span class="nv">$TYPE</span>
+    <span class="k">else
+        </span><span class="nv">ERROR_DUMP</span><span class="o">=</span><span class="s2">"ERROR!!! scripts/new.sh not found!!!"</span>
+    <span class="k">fi</span>
+<span class="p">;;</span>
+<span class="k">*</span><span class="p">)</span>
+    <span class="nb">printf</span> <span class="s2">"Invalid input</span><span class="se">\n</span><span class="s2">"</span>
+<span class="k">esac
 
-if [ -n "$ERROR_DUMP" ]
-then
-    printf "\n$ERROR_DUMP\n\n"
-fi
+if</span> <span class="o">[</span> <span class="nt">-n</span> <span class="s2">"</span><span class="nv">$ERROR_DUMP</span><span class="s2">"</span> <span class="o">]</span>
+<span class="k">then
+    </span><span class="nb">printf</span> <span class="s2">"</span><span class="se">\n</span><span class="nv">$ERROR_DUMP</span><span class="se">\n\n</span><span class="s2">"</span>
+<span class="k">fi</span>
 
 </code></pre></div></div>
 <p>The script isn’t fully coded and tested yet, but in case you want to try it, remember to:</p>
