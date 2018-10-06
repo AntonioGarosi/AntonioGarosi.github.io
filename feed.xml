@@ -3,8 +3,8 @@
     <channel>
         <title>Antonio's Portfolio</title>
         <description>Makey, toyish, geeky, designish works by a fab guy from Tuscany</description>
-        <link>http://localhost:4000</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        <link>https://antoniogarosi.github.io</link>
+        <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Scripting with Jekyll</title>
@@ -13,8 +13,8 @@
                     <description>Adapting a static site generator, one script at a time</description>
                 
                             <pubDate>Sat, 22 Sep 2018 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Scripting-Jekyll</link>
-                <guid isPermaLink="true">http://localhost:4000/Scripting-Jekyll</guid>
+                <link>https://antoniogarosi.github.io/Scripting-Jekyll</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Scripting-Jekyll</guid>
             </item>
         
             <item>
@@ -24,8 +24,8 @@
                     <description>After discovering SatshaKit - the project by Daniele “Satsha” Ingrassia of making a fab-equivalent Arduino - I thought that it was a very good idea but it lacked yet of the one of the most peculiar aspects of the famous italian microcontroller: th...</description>
                 
                             <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Sathsakit-USB-Hat</link>
-                <guid isPermaLink="true">http://localhost:4000/Sathsakit-USB-Hat</guid>
+                <link>https://antoniogarosi.github.io/Sathsakit-USB-Hat</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Sathsakit-USB-Hat</guid>
             </item>
         
             <item>
@@ -43,8 +43,8 @@
 </description>
                 
                             <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/Heap</link>
-                <guid isPermaLink="true">http://localhost:4000/Heap</guid>
+                <link>https://antoniogarosi.github.io/Heap</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Heap</guid>
             </item>
         
             <item>
@@ -56,74 +56,8 @@ This is the first post of this portfolio, onto which I’ll cram my works, proje
 There will be some work in progress in the first period, but in the end I hope you’ll a clear view of my skill...</description>
                 
                             <pubDate>Mon, 13 Aug 2018 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/welcome</link>
-                <guid isPermaLink="true">http://localhost:4000/welcome</guid>
-            </item>
-        
-            <item>
-                <title>Oh Yes</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Sun, 25 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/oh-yes</link>
-                <guid isPermaLink="true">http://localhost:4000/oh-yes</guid>
-            </item>
-        
-            <item>
-                <title>Whateva</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Sat, 24 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/whateva</link>
-                <guid isPermaLink="true">http://localhost:4000/whateva</guid>
-            </item>
-        
-            <item>
-                <title>Hey There</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Fri, 23 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/hey-there</link>
-                <guid isPermaLink="true">http://localhost:4000/hey-there</guid>
-            </item>
-        
-            <item>
-                <title>Humor</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Thu, 22 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/humor</link>
-                <guid isPermaLink="true">http://localhost:4000/humor</guid>
-            </item>
-        
-            <item>
-                <title>Bleh</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Wed, 21 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/bleh</link>
-                <guid isPermaLink="true">http://localhost:4000/bleh</guid>
-            </item>
-        
-            <item>
-                <title>Blah</title>
-                <dc:creator></dc:creator>
-                
-                    <description></description>
-                
-                            <pubDate>Tue, 20 May 2014 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/blah</link>
-                <guid isPermaLink="true">http://localhost:4000/blah</guid>
+                <link>https://antoniogarosi.github.io/welcome</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/welcome</guid>
             </item>
         
     </channel>
