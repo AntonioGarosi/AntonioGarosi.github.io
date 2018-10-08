@@ -7,6 +7,17 @@
         <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>An interactive Game Of Life with Unity</title>
+                <dc:creator></dc:creator>
+                
+                    <description>The leisure of interfering in real time on a zero-player game</description>
+                
+                            <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
+                <link>https://antoniogarosi.github.io/Unity-Game-Of-Life</link>
+                <guid isPermaLink="true">https://antoniogarosi.github.io/Unity-Game-Of-Life</guid>
+            </item>
+        
+            <item>
                 <title>Scripting with Jekyll</title>
                 <dc:creator></dc:creator>
                 
