@@ -3,8 +3,8 @@
     <channel>
         <title>Antonio's Portfolio</title>
         <description>Makey, toyish, geeky, designish works by a fab guy from Tuscany</description>
-        <link>https://antoniogarosi.github.io</link>
-        <atom:link href="https://antoniogarosi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>An interactive Game Of Life with Unity</title>
@@ -13,8 +13,8 @@
                     <description>The leisure of interfering in real time on a zero-player game</description>
                 
                             <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/Unity-Game-Of-Life</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/Unity-Game-Of-Life</guid>
+                <link>http://localhost:4000/Unity-Game-Of-Life</link>
+                <guid isPermaLink="true">http://localhost:4000/Unity-Game-Of-Life</guid>
             </item>
         
             <item>
@@ -24,8 +24,8 @@
                     <description>Adapting a static site generator, one script at a time</description>
                 
                             <pubDate>Sat, 22 Sep 2018 00:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/Scripting-Jekyll</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/Scripting-Jekyll</guid>
+                <link>http://localhost:4000/Scripting-Jekyll</link>
+                <guid isPermaLink="true">http://localhost:4000/Scripting-Jekyll</guid>
             </item>
         
             <item>
@@ -35,8 +35,8 @@
                     <description>After discovering SatshaKit - the project by Daniele “Satsha” Ingrassia of making a fab-equivalent Arduino - I thought that it was a very good idea but it lacked yet of the one of the most peculiar aspects of the famous italian microcontroller: th...</description>
                 
                             <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/Sathsakit-USB-Hat</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/Sathsakit-USB-Hat</guid>
+                <link>http://localhost:4000/Sathsakit-USB-Hat</link>
+                <guid isPermaLink="true">http://localhost:4000/Sathsakit-USB-Hat</guid>
             </item>
         
             <item>
@@ -54,8 +54,8 @@
 </description>
                 
                             <pubDate>Tue, 14 Aug 2018 00:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/Heap</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/Heap</guid>
+                <link>http://localhost:4000/Heap</link>
+                <guid isPermaLink="true">http://localhost:4000/Heap</guid>
             </item>
         
             <item>
@@ -67,8 +67,8 @@ This is the first post of this portfolio, onto which I’ll cram my works, proje
 There will be some work in progress in the first period, but in the end I hope you’ll a clear view of my skill...</description>
                 
                             <pubDate>Mon, 13 Aug 2018 00:00:00 +0200</pubDate>
-                <link>https://antoniogarosi.github.io/welcome</link>
-                <guid isPermaLink="true">https://antoniogarosi.github.io/welcome</guid>
+                <link>http://localhost:4000/welcome</link>
+                <guid isPermaLink="true">http://localhost:4000/welcome</guid>
             </item>
         
     </channel>
